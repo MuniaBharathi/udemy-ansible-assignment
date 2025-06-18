@@ -1,12 +1,15 @@
 # udemy-ansible-assignment
 
-Infrastructure
+###Infrastructure
+
 I chose GCP
 
-Development Environment
+###Development Environment
+
 I set up a local VM on Oracle Virtual Box as my Ansible Controller. There are some pre-requisites required on the Ansible Controller system to work with Google Cloud. Details are documented here Once the Ansible Controller was setup I proceeded to develop my project.
 
-Ansible Project
+###Ansible Project
+
 I decided to use tasks file for deploying VMs and create my own roles to configure those VMs with Application.​
 
 Tasks: A role to deploy necessary compute instances on on Google Cloud
